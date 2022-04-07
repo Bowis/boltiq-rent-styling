@@ -65,20 +65,24 @@
 }
 
 .anticon-message {
-  color: #f3f4f6;
+  color: #f3f4f6 !important;
+}
+
+.popular-card {
+  padding: 5px !important;
 }
 
 .sidebar {
-  background-color: #163149;
+  background-color: #163149 !important;
 }
 /* Accent color, for UI accents, such as tag border */
 .accent {
-  background-color: #82bc85;
+  background-color: #82bc85 !important;
 }
 
 .place-number {
-  border-radius: 0.25rem;
-  background-color: #82bc85;
+  border-radius: 0.25rem !important;
+  background-color: #82bc85 !important;
 }
 
 h1,
@@ -87,7 +91,7 @@ h3,
 h4,
 h5,
 span {
-  font-family: "Nexa Bold";
+  font-family: "Nexa Bold" !important;
 }
 
 a,
@@ -95,5 +99,5 @@ p,
 label,
 input,
 span {
-  font-family: "Inter";
+  font-family: "Inter" !important;
 }
