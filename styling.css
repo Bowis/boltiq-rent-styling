@@ -14,12 +14,24 @@
   border: none;
 }
 
+.ant-menu-item-selected {
+  background-color: #82bc85 !important;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #f3f4f6;
+  height: auto;
+  border: none;
+}
+
 .primary-button:hover,
 .cta-button:hover {
   color: #e5e7eb;
 }
 
-.cta-button {
+.ant-btn .ant-btn-primary {
   background-color: #e8733e;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   border-radius: 0.5rem;
@@ -27,10 +39,12 @@
   font-size: 1rem;
   line-height: 1.5rem;
   color: #f3f4f6;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: auto;
+  border: none;
 }
 
 input {
@@ -50,6 +64,11 @@ input {
 }
 /* Accent color, for UI accents, such as tag border */
 .accent {
+  background-color: #82bc85;
+}
+
+.place-number {
+  border-radius: 0.25rem;
   background-color: #82bc85;
 }
 
