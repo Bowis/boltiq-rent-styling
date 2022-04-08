@@ -30,8 +30,9 @@
 .cta-button:hover {
   color: #e5e7eb;
 }
-/* BTN Testt */
-.ant-btn {
+/* BTN Test
+ */
+.ant-btn-primary {
   background-color: #e8733e;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   border-radius: 0.5rem;
@@ -84,6 +85,8 @@
   border-radius: 0.25rem !important;
   background-color: #82bc85 !important;
 }
+
+
 
 h1,
 h2,
